@@ -48,7 +48,7 @@ class GameComponent {
             this.y = bottom;
             this.gravitySpeed = 0.05;
         }
-        console.log("This.Y: "+this.y+" - Component Bottom:"+ bottom+" - Component top:"+ this.height);
+        //console.log("This.Y: "+this.y+" - Component Bottom:"+ bottom+" - Component top:"+ this.height);
     }
 }
 

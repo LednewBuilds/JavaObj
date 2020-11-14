@@ -43,10 +43,12 @@ class GameComponent {
         if(this.y > bottom){
             this.y = top;
             this.gravitySpeed = 0.05;
+            gameScreen.currentFrame -= 100;
         }
         if(this.y < top){
             this.y = bottom;
             this.gravitySpeed = 0.05;
+            gameScreen.currentFrame -= 100;
         }
         //console.log("This.Y: "+this.y+" - Component Bottom:"+ bottom+" - Component top:"+ this.height);
     }
